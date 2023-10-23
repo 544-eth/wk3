@@ -1,0 +1,372 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    background: linear-gradient(90deg, #ddd, #eee 30%, #eee 70%, #ddd);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+
+
+
+
+.nav-link {
+    position: absolute;
+    display: block;
+    width: 100%;
+}
+
+ul{
+    
+    display: flex;
+    width: auto;
+    padding: 0 19em;
+    padding-left: 20px;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    height: 100px;
+}
+
+
+ a {
+    color: #000;
+    text-decoration: none;
+    padding: 7px 20px;
+    
+}
+
+select {
+    position: relative;
+    display: flex;
+    left: 70em;
+    font-size: 1em;
+    bottom: 4.8em;
+    outline: #000;
+}
+
+main {
+    display: grid;
+    margin: auto;
+    padding: 10em 0;
+    width: 80%;
+    flex-direction: row;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 600px);
+
+    
+    
+   
+}
+
+section {
+    /* background-image: url(./images/aim_0.jpg); */
+    /* background-size: cover;
+    background-repeat: repeat;
+    border: 5px solid snow; */
+/* } */
+/* 
+
+section > p {
+    background-color: #fff;
+}
+
+.second-div {
+    display: grid;
+    margin: auto;
+    padding: 5em 0;
+    width: 80%;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    
+}
+
+
+
+.second-section {
+    background-image: url(./images/tobe_5.jpg);
+    border: 5px solid snow;
+    background-size: cover;
+    background-repeat: repeat; */
+/*     
+}
+
+.second-section, h1, p {
+    justify-content: end;
+    align-items: ;
+    text-align: center;
+    
+}
+
+.second-div {
+    
+} */ 
+
+body {
+    padding: auto;
+    background: linear-gradient(90deg, #ddd, #eee 30%, #eee 70%, #ddd);
+    margin: 2rem;
+    border: 1px solid red; /*to be removed*/
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo img {
+    padding: 0 5px;
+    margin: 10px 0;
+}
+
+.logo a{
+    background-color: red;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    color: #fff;
+    border-radius: 6px;
+}
+
+header {
+    padding: auto;
+    margin: 5px;
+    border: 1px solid blue;
+}
+main {
+    padding: auto;
+    margin: 5px;
+    border: 1px solid blue;
+}
+footer {
+    padding: auto;
+    margin: 5px;
+    border: 1px solid blue;
+}
+
+.nav-container{
+    background-color: #eee;
+    border: 1px solid violet;
+}
+
+.nav-menu {
+    list-style: none;
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+    /* display:inline; */
+    border: 1px solid black;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #222;
+}
+
+.nav-menu li {
+    display:inline-block;
+    padding: 0;
+    padding-top: 40px;
+    margin-right: 10px;
+    justify-content: space-between;
+
+}
+.nav-menu li:last-child {
+    padding: auto;
+    margin: auto;
+    float: right;
+    flex-direction: row;
+}
+
+.nav-menu li:hover {
+    color: darkred;
+    text-transform: uppercase;
+}
+
+.first-section {
+    border: 5px solid #fff;
+
+}
+
+.num1 {
+    font-size: 1.8em;
+    font-family: "Sky Headline", "Sky Headline fallback","arial narrow", sans-serif;
+}
+.first-section1 {
+    display: flex;
+    border: 5px solid #412c2c;
+    justify-items: center;
+    align-items: ;
+}
+/* 
+.first-section-div {
+    max-width: 50%;
+    float: right;
+    border: #222;
+}
+.first-section-div1 {
+    max-width: 50%;
+    float: left;
+    border: #412c2c;
+} */
+
+.first-section-img {
+    flex: 1;
+    padding: 20;
+}
+
+.first-section-div1{
+    padding: 20;
+}
+
+.heading {
+    text-align: left;
+    font-size: 2.5em;
+}
+
+.first-section-text {
+    text-align: justify;
+    font-size: 2em;
+}
+
+.second-section {
+    border: 5px dashed darkred;
+}
+
+.second-div-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+}
+
+.second-div {
+    margin: 5px 5px;
+    background-image: url(./images/tobe_5.jpg);
+    background-size: cover;
+    border: 5px solid #fff;
+
+}
+
+.third-section {
+    border: 5px dashed darkred;
+    margin: 90px 0;
+}
+
+.third-div-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+}
+
+.third-div {
+    margin: 5px 5px;
+    background-image: url(./images/tobe_5.jpg);
+    background-size: cover;
+    border: 5px solid #fff;
+}
+
+.fouth-section {
+    background: linear-gradient(180deg, #149, #027);
+    height: 400px;
+}
+
+.headed {
+    margin: 1.5em;
+    padding: 5px 0;
+    color: #fff;
+    font-weight: 400;  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    line-height: 1.5;
+    font-size: calc(calc(21.2px + 3vw) * 1.25/2 + 6px) + 4px;
+}
+
+.downlink{
+    border: 2px dashed white;
+}
+.down-menu {
+    display: flex;
+    flex-direction: row;
+}
+.down-menu li {
+    display:inline-block;
+    margin: 0 5em;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.down-menu a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+
+.video-links p {
+    border: 2px solid white;
+    color: aliceblue; 
+}
+
+
+section .video-links .p {
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 300px); 
+   
+}
+
+.footer-1 {
+    display: grid;
+    gap: calc(calc(3.3px + 0.75vw)*4);
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 0 calc(calc(calc(3.3px + 0.75vw)*2)+4);
+    width: 1024px;
+
+}
+
+.footer-2 {
+    display: grid;
+    gap: 2;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.footer-social {
+    align-items: center;
+    display: grid;
+    gap: 2;
+    grid-auto-columns: min-content;
+    grid-auto-flow: column;
+}
+
+.footer-3 {
+    align-items: center;
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: column;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+a {
+    fill: inherit;
+    color: inherit;
+    text-decoration: none;
+    
+}
