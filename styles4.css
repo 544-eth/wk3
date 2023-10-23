@@ -1,120 +1,9 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 100%;
-}
 
-body {
-    background: linear-gradient(90deg, #ddd, #eee 30%, #eee 70%, #ddd);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-
-
-
-
-
-.nav-link {
-    position: absolute;
-    display: block;
-    width: 100%;
-}
-
-ul{
-    
-    display: flex;
-    width: auto;
-    padding: 0 19em;
-    padding-left: 20px;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ddd;
-    height: 100px;
-}
-
-
- a {
-    color: #000;
-    text-decoration: none;
-    padding: 7px 20px;
-    
-}
-
-select {
-    position: relative;
-    display: flex;
-    left: 70em;
-    font-size: 1em;
-    bottom: 4.8em;
-    outline: #000;
-}
-
-main {
-    display: grid;
-    margin: auto;
-    padding: 10em 0;
-    width: 80%;
-    flex-direction: row;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 600px);
-
-    
-    
-   
-}
-
-section {
-    /* background-image: url(./images/aim_0.jpg); */
-    /* background-size: cover;
-    background-repeat: repeat;
-    border: 5px solid snow; */
-/* } */
-/* 
-
-section > p {
-    background-color: #fff;
-}
-
-.second-div {
-    display: grid;
-    margin: auto;
-    padding: 5em 0;
-    width: 80%;
-    flex-direction: row;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 400px);
-    
-}
-
-
-
-.second-section {
-    background-image: url(./images/tobe_5.jpg);
-    border: 5px solid snow;
-    background-size: cover;
-    background-repeat: repeat; */
-/*     
-}
-
-.second-section, h1, p {
-    justify-content: end;
-    align-items: ;
-    text-align: center;
-    
-}
-
-.second-div {
-    
-} */ 
 
 body {
     padding: auto;
     background: linear-gradient(90deg, #ddd, #eee 30%, #eee 70%, #ddd);
     margin: 2rem;
-    border: 1px solid red; /*to be removed*/
 }
 
 .logo {
@@ -140,22 +29,19 @@ body {
 header {
     padding: auto;
     margin: 5px;
-    border: 1px solid blue;
 }
 main {
     padding: auto;
     margin: 5px;
-    border: 1px solid blue;
 }
 footer {
     padding: auto;
     margin: 5px;
-    border: 1px solid blue;
 }
 
 .nav-container{
     background-color: #eee;
-    border: 1px solid violet;
+    
 }
 
 .nav-menu {
@@ -163,8 +49,7 @@ footer {
     list-style-type: none;
     padding: 2px;
     margin: 2px;
-    /* display:inline; */
-    border: 1px solid black;
+   
 }
 
 .nav-menu a {
@@ -194,7 +79,6 @@ footer {
 }
 
 .first-section {
-    border: 5px solid #fff;
 
 }
 
@@ -204,21 +88,10 @@ footer {
 }
 .first-section1 {
     display: flex;
-    border: 5px solid #412c2c;
     justify-items: center;
     align-items: ;
 }
-/* 
-.first-section-div {
-    max-width: 50%;
-    float: right;
-    border: #222;
-}
-.first-section-div1 {
-    max-width: 50%;
-    float: left;
-    border: #412c2c;
-} */
+
 
 .first-section-img {
     flex: 1;
@@ -240,7 +113,6 @@ footer {
 }
 
 .second-section {
-    border: 5px dashed darkred;
 }
 
 .second-div-div {
@@ -253,12 +125,10 @@ footer {
     margin: 5px 5px;
     background-image: url(./images/tobe_5.jpg);
     background-size: cover;
-    border: 5px solid #fff;
 
 }
 
 .third-section {
-    border: 5px dashed darkred;
     margin: 90px 0;
 }
 
@@ -272,7 +142,7 @@ footer {
     margin: 5px 5px;
     background-image: url(./images/tobe_5.jpg);
     background-size: cover;
-    border: 5px solid #fff;
+    
 }
 
 .fouth-section {
@@ -291,7 +161,7 @@ footer {
 }
 
 .downlink{
-    border: 2px dashed white;
+    
 }
 .down-menu {
     display: flex;
@@ -312,7 +182,6 @@ footer {
 
 
 .video-links p {
-    border: 2px solid white;
     color: aliceblue; 
 }
 
