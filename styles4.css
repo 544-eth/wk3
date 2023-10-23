@@ -87,6 +87,7 @@ footer {
     font-family: "Sky Headline", "Sky Headline fallback","arial narrow", sans-serif;
 }
 .first-section1 {
+    border: 5px solid #fff;
     display: flex;
     justify-items: center;
     align-items: ;
@@ -122,6 +123,7 @@ footer {
 }
 
 .second-div {
+    border: 5px solid #fff;
     margin: 5px 5px;
     background-image: url(./images/tobe_5.jpg);
     background-size: cover;
@@ -139,6 +141,7 @@ footer {
 }
 
 .third-div {
+    border: 5px solid #fff;
     margin: 5px 5px;
     background-image: url(./images/tobe_5.jpg);
     background-size: cover;
